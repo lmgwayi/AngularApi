@@ -11,6 +11,11 @@ module.exports = mongoose =>{
         strength:{
             type: String,
             require: true
+        },
+
+        weakness: {
+            type: String,
+            require: true
         }
     })
 

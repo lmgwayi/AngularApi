@@ -2,7 +2,7 @@ const express = require("express");
 require('dotenv').config()
 const cors = require("cors");
 const app = express();
-const initRoutes = require("./routes/hero.routes")
+const initRoutes = require("./routes/heroes.routes")
 const PORT = process.env.PORT;
 
 const DB = require("./config/db.config")

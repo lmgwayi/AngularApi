@@ -13,7 +13,7 @@ module.exports = rs => { // EXPORTING THE ROUTES
 
     router.delete('/:id', controller.deleteOne) // DELETE A USER
 
-     router.get('/:id', controller.getOne)
+    router.get('/:id', controller.getOne)
 
 
 rs.use('/v1/hero',router);    
